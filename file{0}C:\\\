@@ -1,0 +1,14 @@
+print("Injected!")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ProxyDll",
+    Text = "Injected ProxyAPI!",
+    Icon = "rbxassetid://128972051488103",
+    Duration = 8
+})
+wait(8)
+print("http://dsc.gg/proxy")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "http://dsc.gg/proxy",
+    Text = "http://dsc.gg/proxy",
+    Icon = "rbxassetid://128972051488103",
+    Duration = 7
