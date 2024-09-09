@@ -1,7 +1,7 @@
-print("Injected!")
+print("Executed!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "ProxyDll",
-    Text = "Injected ProxyAPI!",
+    Text = "Executed ProxyAPI!",
     Icon = "rbxassetid://128972051488103",
     Duration = 8
 })
